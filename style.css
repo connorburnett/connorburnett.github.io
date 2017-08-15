@@ -80,7 +80,7 @@
     background-size: cover;                      /* <------ */
     background-repeat: no-repeat;
     background-position: center center; 
-    height: 80vh;
+    /*height: 80vh;*/
 }
 
 
@@ -204,6 +204,7 @@
     text-align: center;
     letter-spacing: 4px;
     text-shadow: 0 0 3px white;
+    max-width: 100%
 
 }
 
@@ -244,7 +245,7 @@
 
 .mc {
     width: 10.5rem;
-	height: 10.5rem;
+    height: 10.5rem;
 	background: white;
     margin-left: auto;
     margin-right: auto;
@@ -257,6 +258,8 @@
     border-width: 4px;
     background-repeat: no-repeat;
     box-shadow: 0 0 1px 5px white;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .mc1 {
@@ -310,10 +313,27 @@
     border-width: 4px;
     background-repeat: no-repeat;
     box-shadow: 0 0 1px 1px white;
+    max-width: 100%;
 }
 
 .thumbnail:hover {
     color: black;
+}
+
+.contact h4 {
+    font-family: 'Rufina', serif;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-shadow: 0 0 1px white;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 0.5vw;
+    height: auto;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    max-width: 100%;
 }
 
 /* {
