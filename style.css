@@ -4,7 +4,7 @@
     padding-top: 40px;
     border-style: solid;
     border-color: white;
-    border-width: 30px;
+    border-width: 30px 30px 30px 30px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;                      /* <------ */
@@ -34,11 +34,21 @@
 .topper h2 {
     font-family: 'Rufina', serif;
     color: white;
-    font-size: 50px;
+    font-size: 35px;
     text-align: center;
     letter-spacing: 4px;
     text-shadow: 0 0 3px white;
 
+}
+
+.topper h5 {
+    font-family: 'Cinzel', serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    text-shadow: 0 0 2px white;
 }
 
 
@@ -65,7 +75,7 @@
 .pics {
     border-style: solid;
     border-color: white;
-    border-width: 15px;
+    border-width: 0px;
     background-color: white;
 }
 
@@ -74,7 +84,7 @@
     padding: 20px;
     border-style: solid;
     border-color: white;
-    border-width: 0px;
+    border-width: 0px 30px 15px 30px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;                      /* <------ */
@@ -85,7 +95,7 @@
 
 
 .sq1 {
-    background-image: url(http://i.imgur.com/8n3oSin.jpg);
+    background-image: url(http://i.imgur.com/mBQnEfL.jpg);
     margin-left: auto;
 }
 
@@ -117,10 +127,9 @@
 .pics p {
     font-family: 'Rufina', serif;
     color: white;
-    text-align: center;
-    letter-spacing: 2px;
-    word-spacing: 2px;
+    text-align: left;
     text-shadow: 0 0 1px gray;
+    padding-top: 2vw;
     padding-left: 2.5vw;
     padding-right: 2.5vw;
     height: auto;
@@ -164,6 +173,21 @@
     box-shadow: 0 0 1px 2px white;
 }
 
+#langs {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: gray;
+    -moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+    border-radius: 8px;
+    opacity: 0.9;
+}
+
 /*.row-eq-height {
   display: -webkit-box;
   display: -webkit-flex;
@@ -174,11 +198,11 @@
 
 .projects {
     background-image: url(http://i.imgur.com/c7Fj3bQ.jpg);
-    height: 100vh;
     padding-top: 30px;
+    padding-bottom: 50px;
     border-style: solid;
     border-color: white;
-    border-width: 30px;
+    border-width: 15px 30px 30px 30px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -189,10 +213,9 @@
 .projects h1 {
     font-family: 'Cinzel', serif;
     color: white;
-    font-size: 40px;
+    font-size: 34px;
     text-align: center;
-    padding-top: 2vw;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     word-spacing: 9px;
     text-shadow: 0 0 3px white;
 }
@@ -209,12 +232,11 @@
 }
 
 .contact {
-    background-image: url(http://i.imgur.com/9oMH6an.jpg);
-    height: 50vh;
+    background-image: url(http://i.imgur.com/mBQnEfL.jpg);
     padding-top: 30px;
     border-style: solid;
     border-color: white;
-    border-width: 15px 30px 30px 30px;
+    border-width: 0px 30px 30px 30px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -225,10 +247,9 @@
 .contact h1 {
     font-family: 'Cinzel', serif;
     color: white;
-    font-size: 40px;
+    font-size: 34px;
     text-align: center;
-    padding-top: 2vw;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     word-spacing: 9px;
     text-shadow: 0 0 3px white;
 }
@@ -262,49 +283,13 @@
     max-height: 100%;
 }
 
-.mc1 {
-     background-image: url(https://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/012011/html5_logo-01.png);  
-}
-
-.mc2 {
-    background-image: url(https://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/042015/css3.png);
-}
-
-.mc3 {
-    background-image: url(https://v4-alpha.getbootstrap.com/assets/brand/bootstrap-solid.svg);
-}
-
-.mc4 {
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png);
-}
-
-.mc5 {
-    background-image: url(https://www.w3schools.com/angular/pic_angular.jpg);
-}
-
-.mc6 {
-    background-image: url(https://vuejs.org/images/logo.png);
-}
-
-.mc7 {
-    background-image: url(https://www.echosteg.com/images/blog/standard/nodejs_logo.png);
-}
-
-.mc8 {
-    background-image: url(https://cdn.codementor.io/assets/tutors/c-sharp-tutors-online.png);
-}
-
-.mc9 {
-    background-image: url(https://helpx.adobe.com/content/dam/help/mnemonics/ps_cc_app_RGB.svg);
-}
-
 .porte1 {
     width: 25.5rem;
 	height: 18.5rem;
 	background: black;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 12vh;
+    margin-top: 2vh;
     margin-bottom: 2vh;
     background-image: url();
     background-size: 100%;
@@ -329,7 +314,6 @@
     text-shadow: 0 0 1px white;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
-    padding-top: 0.5vw;
     height: auto;
     font-size: 2.5rem;
     margin-bottom: 20px;
@@ -351,3 +335,24 @@
     border-width: 4px;
     background-repeat: no-repeat;
 }*/
+
+.meinfo {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+#langstwo {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: gray;
+    -moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+    border-radius: 8px;
+    opacity: 0.9;
+}
