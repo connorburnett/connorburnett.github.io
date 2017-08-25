@@ -84,7 +84,7 @@
     padding: 20px;
     border-style: solid;
     border-color: white;
-    border-width: 0px 30px 15px 30px;
+    border-width: 15px 30px 15px 30px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;                      /* <------ */
@@ -129,14 +129,14 @@
     color: white;
     text-align: left;
     text-shadow: 0 0 1px gray;
-    padding-top: 2vw;
+    padding-top: 2.6vw;
     padding-left: 2.5vw;
     padding-right: 2.5vw;
     height: auto;
 }
 
 .h3font {
-    font-size: 2.2rem;
+    font-size: 2.0rem;
 }
 
 .pics h4 {
@@ -538,7 +538,7 @@
     padding-left: 2.5rem;
     padding-right: 2.5rem;
     height: auto;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     margin-bottom: 20px;
     max-width: 100%;
 }
