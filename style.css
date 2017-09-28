@@ -1,5 +1,6 @@
 .topper {
-    background-image: url(http://i.imgur.com/udfNnq4.jpg);
+    /*background-image: url(http://i.imgur.com/udfNnq4.jpg);*/
+    background-image: url(https://i.imgur.com/rF7s0tc.jpg);
     height: 100vh;
     padding-top: 40px;
     border-style: solid;
@@ -145,6 +146,7 @@
 
 .h3font {
     font-size: 1.9rem;
+    text-align: center;
 }
 
 .pics h4 {
