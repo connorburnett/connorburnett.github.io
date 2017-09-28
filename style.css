@@ -4,7 +4,7 @@
     padding-top: 40px;
     border-style: solid;
     border-color: white;
-    border-width: 30px 30px 30px 30px;
+    border-width: 20px 20px 20px 20px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;                      /* <------ */
@@ -22,27 +22,30 @@
 
 .topper h1 {
     font-family: 'Cinzel', serif;
+    /*font-family: 'Josefin Sans', sans-serif;*/
     color: white;
     font-size: 40px;
     text-align: center;
     padding-top: 2vw;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     word-spacing: 9px;
-    text-shadow: 0 0 3px white;
+    text-shadow: 0 0 2px white;
 }
 
 .topper h2 {
-    font-family: 'Rufina', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Rufina', serif;*/
     color: white;
     font-size: 35px;
     text-align: center;
-    letter-spacing: 4px;
-    text-shadow: 0 0 3px white;
+    letter-spacing: 3px;
+    text-shadow: 0 0 2px white;
 
 }
 
 .topper h5 {
-    font-family: 'Cinzel', serif;
+    /*font-family: 'Cinzel', serif;*/
+    font-family: 'Josefin Sans', sans-serif;
     color: white;
     font-size: 20px;
     text-align: center;
@@ -80,11 +83,13 @@
 }
 
 .square {
-    background-image: url(http://i.imgur.com/lFa1Kfk.jpg);
+    /*background-image: url(http://i.imgur.com/lFa1Kfk.jpg);*/
+    background-color: #696c7a;
+    background-image: url("https://www.transparenttextures.com/patterns/arches.png");
     padding: 20px;
     border-style: solid;
     border-color: white;
-    border-width: 15px 30px 15px 30px;
+    border-width: 0px 20px 10px 20px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;                      /* <------ */
@@ -95,7 +100,7 @@
 
 
 .sq1 {
-    background-image: url(http://i.imgur.com/mBQnEfL.jpg);
+    /*background-image: url(http://i.imgur.com/mBQnEfL.jpg);*/
     margin-left: auto;
 }
 
@@ -115,33 +120,37 @@
 }*/
 
 .pics h1 {
-    font-family: 'Cinzel', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Cinzel', serif;*/
     color: white;
     font-size: 34px;
     text-align: center;
     letter-spacing: 3px;
     word-spacing: 9px;
-    text-shadow: 0 0 3px white;
+    text-shadow: 0 0 2px white;
 }
 
 .pics p {
-    font-family: 'Rufina', serif;
+    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Josefin Sans', sans-serif;*/
+    /*font-family: 'Rufina', serif;*/
     color: white;
     text-align: left;
     text-shadow: 0 0 1px gray;
-    padding-top: 2.6vw;
+    padding-top: 2.3vw;
     padding-left: 2.5vw;
     padding-right: 2.5vw;
     height: auto;
 }
 
 .h3font {
-    font-size: 2.0rem;
+    font-size: 1.9rem;
 }
 
 .pics h4 {
-    font-family: 'Rufina', serif;
-    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Rufina', serif;*/
+    color: #393b42;
     text-align: center;
     letter-spacing: 1px;
     word-spacing: 2px;
@@ -155,12 +164,12 @@
 }
 
 .mecircle {
-    width: 200px;
-	height: 200px;
+    width: 230px;
+	height: 230px;
 	background: black;
-	-moz-border-radius: 100px;
-	-webkit-border-radius: 100px;
-    border-radius: 100px;
+	-moz-border-radius: 115px;
+	-webkit-border-radius: 115px;
+    border-radius: 115px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3vh;
@@ -181,14 +190,20 @@
     padding-bottom: 30px;
     padding-left: 25px;
     padding-right: 25px;
-    background-color: gray;
-    -moz-border-radius: 8px;
+    /*background-image: url(http://i.imgur.com/mBQnEfL.jpg);*/
+    background-color: white;
+    /*-moz-border-radius: 8px;
 	-webkit-border-radius: 8px;
-    border-radius: 8px;
+    border-radius: 8px;*/
     opacity: 0.9;
     border-style: solid;
-    border-color: white;
+    border-color: #393b42;
     border-width: 4px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;                      /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center; 
 }
 
 /*.row-eq-height {
@@ -200,12 +215,16 @@
 */
 
 .projects {
-    background-image: url(http://i.imgur.com/c7Fj3bQ.jpg);
+    /*background-image: url(http://i.imgur.com/c7Fj3bQ.jpg);*/
+
+    background-color: #6e806e;
+    background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+
     padding-top: 30px;
     padding-bottom: 50px;
     border-style: solid;
     border-color: white;
-    border-width: 15px 30px 30px 30px;
+    border-width: 10px 20px 20px 20px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -214,32 +233,38 @@
 }
 
 .projects h1 {
-    font-family: 'Cinzel', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    /*
+    font-family: 'Cinzel', serif;*/
     color: white;
     font-size: 34px;
     text-align: center;
     letter-spacing: 3px;
     word-spacing: 9px;
-    text-shadow: 0 0 3px white;
+    text-shadow: 0 0 2px white;
 }
 
 .projects h2 {
-    font-family: 'Rufina', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Rufina', serif;*/
     color: white;
     font-size: 50px;
     text-align: center;
     letter-spacing: 4px;
-    text-shadow: 0 0 3px white;
+    text-shadow: 0 0 2px white;
     max-width: 100%
 
 }
 
 .contact {
-    background-image: url(http://i.imgur.com/mBQnEfL.jpg);
+    /*background-image: url(http://i.imgur.com/mBQnEfL.jpg);*/
+    background-color: #393b42;
+    background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+    /*background-color: #42474C;*/
     padding-top: 30px;
     border-style: solid;
     border-color: white;
-    border-width: 0px 30px 30px 30px;
+    border-width: 0px 20px 20px 20px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -248,22 +273,24 @@
 }
 
 .contact h1 {
-    font-family: 'Cinzel', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Cinzel', serif;*/
     color: white;
     font-size: 34px;
     text-align: center;
     letter-spacing: 3px;
     word-spacing: 9px;
-    text-shadow: 0 0 3px white;
+    text-shadow: 0 0 2px white;
 }
 
 .contact h2 {
     font-family: 'Rufina', serif;
+
     color: white;
     font-size: 50px;
     text-align: center;
     letter-spacing: 4px;
-    text-shadow: 0 0 3px white;
+    text-shadow: 0 0 2px white;
 
 }
 
@@ -286,79 +313,98 @@
     max-height: 100%;
 }
 
+.box h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Rufina', serif;*/
+    color: #393b42;
+    text-align: center;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    text-shadow: 0 0 1px white;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 0.5vw;
+    height: auto;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.box h5 {
+    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Rufina', serif;*/
+    color: gray;
+    text-align: center;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    text-shadow: 0 0 1px white;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 0.5vw;
+    height: auto;
+    font-size: 2.1rem;
+    margin-bottom: 20px;
+}
+.box h6 {
+    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Rufina', serif;*/
+    color: black;
+    text-align: center;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    text-shadow: 0 0 1px white;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 0.2vw;
+    height: auto;
+    font-size: 2.1rem;
+    margin-bottom: 5px;
+}
+
 .porte1 {
-    width: 25.5rem;
-	height: 18.5rem;
-    margin-left: auto;
-    margin-right: auto;
+	height: 25.5rem;
+    background-image: url(https://i.imgur.com/EQk1WEs.jpg);
+    background-size:cover;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
     margin-top: 2vh;
     margin-bottom: 2vh;
+}
+
+.porte2 {
+    height: 25.5rem;
+    background-image: url(https://i.imgur.com/8ZDUU8t.jpg);
+    background-size:cover;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.porte3 {
+    height: 25.5rem;
+    background-image: url(https://i.imgur.com/4MHJNUI.png);
+    background-size:cover;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.porte4 {
+    height: 25.5rem;
     background-image: url(http://i.imgur.com/ytfzR1n.png);
     background-size:cover;
     border-style: solid;
     border-color: white;
     border-width: 4px;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 1px 1px white;
-    max-width: 100%;
-}
-
-.porte2 {
-    width: 25.5rem;
-    height: 18.5rem;
-    background-color:black;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 2vh;
     margin-bottom: 2vh;
-    background-image: url();
-    background-size:cover;
-    border-style: solid;
-    border-color: white;
-    border-width: 4px;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 1px 1px white;
-    max-width: 100%;
-}
-
-.porte3 {
-    width: 25.5rem;
-    height: 18.5rem;
-    background-color:black;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    background-image: url();
-    background-size:cover;
-    border-style: solid;
-    border-color: white;
-    border-width: 4px;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 1px 1px white;
-    max-width: 100%;
-}
-
-.porte4 {
-    width: 25.5rem;
-    height: 18.5rem;
-    background-color:black;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    background-image: url();
-    background-size:cover;
-    border-style: solid;
-    border-color: white;
-    border-width: 4px;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 1px 1px white;
-    max-width: 100%;
 }
 
 .porte5 {
-    width: 25.5rem;
     height: 18.5rem;
     background-color:black;
     margin-left: auto;
@@ -376,7 +422,6 @@
 }
 
 .porte6 {
-    width: 25.5rem;
     height: 18.5rem;
     background-color:black;
     margin-left: auto;
@@ -393,7 +438,68 @@
     max-width: 100%;
 }
 
-#por1 {
+.porte1:hover .por1 {
+    opacity: 1;
+  }
+  
+.porte2:hover .por2 {
+    opacity: 1;
+  }
+
+.porte3:hover .por3 {
+    opacity: 1;
+  }
+
+.porte4:hover .por4 {
+    opacity: 1;
+  }
+
+.por1 {
+    height: 25rem;
+    background-size:cover;
+    border-style: solid;
+    border-color: white;
+    border-width: -2px;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: white;
+
+}
+
+.por2 {
+    height: 25rem;
+    background-size:cover;
+    border-style: solid;
+    border-color: white;
+    border-width: -2px;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: white;
+}
+
+.por3 {
+    height: 25rem;
+    background-size:cover;
+    border-style: solid;
+    border-color: white;
+    border-width: -2px;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: white;
+}
+
+.por4 {
+    height: 25rem;
+    background-size:cover;
+    border-style: solid;
+    border-color: white;
+    border-width: -2px;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: white;
+}
+
+.por5 {
     display: none;
     opacity: 0;
     animation: fade 1s infinite;
@@ -414,91 +520,7 @@
     max-width: 100%;
 }
 
-#por2 {
-    display: none;
-    opacity: 0;
-    animation: fade 1s infinite;
-
-    width: 25.5rem;
-	height: 17.5rem;
-	background: white;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2vh;
-    background-image: url();
-    background-size: 100%;
-    border-style: solid;
-    border-color: black;
-    border-width: 4px;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 1px 1px black;
-    max-width: 100%;
-}
-
-#por3 {
-    display: none;
-    opacity: 0;
-    animation: fade 1s infinite;
-
-    width: 25.5rem;
-	height: 17.5rem;
-	background: white;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2vh;
-    background-image: url();
-    background-size: 100%;
-    border-style: solid;
-    border-color: black;
-    border-width: 4px;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 1px 1px black;
-    max-width: 100%;
-}
-
-#por4 {
-    display: none;
-    opacity: 0;
-    animation: fade 1s infinite;
-
-    width: 25.5rem;
-	height: 17.5rem;
-	background: white;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2vh;
-    background-image: url();
-    background-size: 100%;
-    border-style: solid;
-    border-color: black;
-    border-width: 4px;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 1px 1px black;
-    max-width: 100%;
-}
-
-#por5 {
-    display: none;
-    opacity: 0;
-    animation: fade 1s infinite;
-
-    width: 25.5rem;
-	height: 17.5rem;
-	background: white;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2vh;
-    background-image: url();
-    background-size: 100%;
-    border-style: solid;
-    border-color: black;
-    border-width: 4px;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 1px 1px black;
-    max-width: 100%;
-}
-
-#por6 {
+.por6 {
     display: none;
     opacity: 0;
     animation: fade 1s infinite;
@@ -529,7 +551,8 @@
 }
 
 .contact h4 {
-    font-family: 'Rufina', serif;
+    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Rufina', serif;*/
     color: white;
     text-align: center;
     letter-spacing: 1px;
@@ -562,7 +585,7 @@
 .meinfo {
     text-align: center;
     font-size: 40px;
-    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 #langstwo {
@@ -574,11 +597,16 @@
     padding-left: 25px;
     padding-right: 25px;
     background-color: gray;
-    -moz-border-radius: 8px;
+    /*-moz-border-radius: 8px;
 	-webkit-border-radius: 8px;
-    border-radius: 8px;
+    border-radius: 8px;*/
     opacity: 0.9;
     border-style: solid;
     border-color: white;
     border-width: 4px;
+}
+
+.endmessage {
+    padding-bottom: 30px;
+    font-style: italic;
 }
