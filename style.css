@@ -608,6 +608,16 @@
     border-width: 4px;
 }
 
+.langimgs {
+    padding: 2px;
+    transition: 1s ease;
+}
+
+.langimgs:hover {
+    padding: 10px;
+    transition: 1s ease;
+}
+
 .endmessage {
     padding-bottom: 30px;
     font-style: italic;
