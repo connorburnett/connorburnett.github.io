@@ -5,7 +5,7 @@
     padding-top: 40px;
     border-style: solid;
     border-color: white;
-    border-width: 20px 20px 20px 20px;
+    border-width: 10px 10px 10px 10px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;                      /* <------ */
@@ -30,7 +30,7 @@
     padding-top: 2vw;
     letter-spacing: 2px;
     word-spacing: 9px;
-    text-shadow: 0 0 2px white;
+    text-shadow: 0 0 1px white;
 }
 
 .topper h2 {
@@ -40,7 +40,7 @@
     font-size: 35px;
     text-align: center;
     letter-spacing: 3px;
-    text-shadow: 0 0 2px white;
+    text-shadow: 0 0 1px white;
 
 }
 
@@ -52,7 +52,7 @@
     text-align: center;
     letter-spacing: 1px;
     word-spacing: 5px;
-    text-shadow: 0 0 2px white;
+    text-shadow: 0 0 1px white;
 }
 
 
@@ -90,7 +90,7 @@
     padding: 20px;
     border-style: solid;
     border-color: white;
-    border-width: 0px 20px 10px 20px;
+    border-width: 0px 10px 5px 10px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;                      /* <------ */
@@ -128,7 +128,7 @@
     text-align: center;
     letter-spacing: 3px;
     word-spacing: 9px;
-    text-shadow: 0 0 2px white;
+    text-shadow: 0 0 1px white;
 }
 
 .pics p {
@@ -226,7 +226,7 @@
     padding-bottom: 50px;
     border-style: solid;
     border-color: white;
-    border-width: 10px 20px 20px 20px;
+    border-width: 5px 10px 10px 10px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -243,7 +243,7 @@
     text-align: center;
     letter-spacing: 3px;
     word-spacing: 9px;
-    text-shadow: 0 0 2px white;
+    text-shadow: 0 0 1px white;
 }
 
 .projects h2 {
@@ -253,7 +253,7 @@
     font-size: 50px;
     text-align: center;
     letter-spacing: 4px;
-    text-shadow: 0 0 2px white;
+    text-shadow: 0 0 1px white;
     max-width: 100%
 
 }
@@ -266,7 +266,7 @@
     padding-top: 30px;
     border-style: solid;
     border-color: white;
-    border-width: 0px 20px 20px 20px;
+    border-width: 0px 10px 10px 10px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -282,7 +282,7 @@
     text-align: center;
     letter-spacing: 3px;
     word-spacing: 9px;
-    text-shadow: 0 0 2px white;
+    text-shadow: 0 0 1px white;
 }
 
 .contact h2 {
@@ -292,7 +292,7 @@
     font-size: 50px;
     text-align: center;
     letter-spacing: 4px;
-    text-shadow: 0 0 2px white;
+    text-shadow: 0 0 1px white;
 
 }
 
