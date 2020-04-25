@@ -176,8 +176,8 @@
     margin-right: auto;
     margin-top: 3vh;
     margin-bottom: 3vh;
-    background-image: url(assets/mi-3.png);
-    background-size: 100%;
+    background-image: url(assets/mecapitol.jpg);
+    background-size: 110%;
     border-style: solid;
     border-color: white;
     border-width: 4px;
@@ -621,4 +621,8 @@
 .endmessage {
     padding-bottom: 30px;
     font-style: italic;
+}
+
+a {
+    color: #fff !important;
 }
