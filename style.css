@@ -620,6 +620,128 @@
     transition: 1s ease;
 }
 
+.langimg {
+    width: 130px;
+	height: 130px;
+	background: black;
+	-moz-border-radius: 65px;
+	-webkit-border-radius: 65px;
+    border-radius: 115px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    background-color: #f3f3f3;
+    background-size: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    box-shadow: 0 0 1px 2px white;
+}
+
+.langimg:hover {
+    width: 140px;
+    height: 140px;
+    background-color: #f3f3f3;
+    transition: 0.2s ease;
+    margin-bottom: -10px;
+} 
+
+.langpic1 {
+    background-image: url(assets/2020html.png);
+}
+
+.langpic2 {
+    background-image: url(assets/2020css.png);
+}
+
+.langpic3 {
+    background-image: url(assets/2020wp.png);
+}
+
+.langpic4 {
+    background-image: url(assets/2020ps.png);
+}
+
+.langpic5 {
+    background-image: url(assets/2020js.png);
+}
+
+.langpic6 {
+    background-image: url(assets/2020csharp.png);
+}
+
+.dropdown-content {
+    opacity: 0;
+    margin-top: 8em;
+    padding-top: 0.5em;
+    padding-left: 1em;
+    color: #393b42;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #f3f3f3;
+    transition: 0.5s ease;
+
+    width: 280px;
+	height: 100px;
+	background: black;
+	/* -moz-border-radius: 65px;
+	-webkit-border-radius: 65px;
+    border-radius: 115px; */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f3f3f3;
+    background-size: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    box-shadow: 0 0 1px 2px white;
+}
+
+.content-2 {
+    opacity: 0;
+    margin-top: 1em;
+    padding-top: 1em;
+    color: #393b42;
+    background-color: #f3f3f3;
+    transition: 0.5s ease;
+
+    width: 180px;
+	height: 180px;
+	background: black;
+	-moz-border-radius: 90px;
+	-webkit-border-radius: 90px;
+    border-radius: 115px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f3f3f3;
+    background-size: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    box-shadow: 0 0 1px 2px white;
+}
+
+.content-3 {
+
+}
+
+.content-4 {
+
+}
+
+.langpic2:hover .dropdown-content{
+    opacity: 1;
+} 
+
+.langpic3:hover .dropdown-content {
+    opacity: 1;
+} 
+
+.langpic5:hover .dropdown-content {
+    opacity: 1;
+} 
+
 .endmessage {
     padding-bottom: 30px;
     font-size: 18px;
