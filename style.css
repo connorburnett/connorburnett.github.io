@@ -376,7 +376,7 @@
 
 .porte2 {
     height: 25.5rem;
-    background-image: url(https://i.imgur.com/8ZDUU8t.jpg);
+    background-image: url(assets/biomed.PNG);
     background-size:cover;
     border-style: solid;
     border-color: white;
@@ -399,7 +399,7 @@
 
 .porte4 {
     height: 25.5rem;
-    background-image: url(assets/pleasancehousewebsitescreen.png);
+    background-image: url(assets/chisholmtrail.PNG);
     background-size:cover;
     border-style: solid;
     border-color: white;
@@ -749,4 +749,23 @@
 
 a {
     color: #fff !important;
+}
+
+.viewmore-btn h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    text-shadow: 0 0 1px white;
+    padding: 2em;
+    border: 3px solid #fff;
+    transition: 0.5s ease;
+}
+
+.viewmore-btn h5:hover {
+    color: rgba(79, 158, 79, 0.842);
+    background-color:#fff;
+    transition: 0.5s ease;
 }
